@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(195, 167, 103);
+}
+
+
+img:hover {
+    cursor: pointer;
+width: 300px;
+height: 300px;
+}
+
+div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+img{
+    border: 3px solid black;
+    transition: width 0.5s, height 0.5s;
+}
+
+p{
+    text-align: center;
+    font-size: 45px;
+}
+
+button {
+    align: center;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(255, 179, 0);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(220, 183, 95);
+    color: white;
+}
